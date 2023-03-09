@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:url("bg.jpg");
+    background-size: cover;
+  height: 100vh;
+   
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+        flex-direction: column;
+    
+}
+
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+.box{
+    width:100px;
+    
+    
+   
+    padding:5px;
+}
+.box input{
+    width:100px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    display: block;
+    margin: 12px 0px;
+        padding:0px  13px
+    
+}
+.btn{
+    cursor: pointer;
+    border-radius: 132px solid black;
+border: 2px solid black;
+    color: orangered;
+    margin:25px;
+    align-self: center;
+}
+btn i{
+    width:2px;
+    text-align: center;
+    float:left
+}
