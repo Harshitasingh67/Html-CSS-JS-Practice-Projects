@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 700px;
+    height: 500px;
+    box-shadow: 0px,0px,5px,oldlace;
+    margin-top: 90px;
+    margin: auto;
+position: relative;
+}
+
+img{
+width:100%;
+height:100%;
+transition:1s;
+position: absolute;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.nav button{
+    font:25px;
+    padding: 5px;
+    
+}
