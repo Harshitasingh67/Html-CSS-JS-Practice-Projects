@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(80, 61, 243);
+    color: white;
+}
+
+.card {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(34, 17, 180);
+    border:1px solid white;
+    padding: 19px 30px;
+    border-radius:9px;
+    box-shadow: 4px 4px 56px 3px rgb(20, 203, 210);
+}
+.container img{
+    border: 1.5px solid black;
+    border-radius: 50%;
+    
+}
+
+.user_detail{
+    padding:15px;
+    text-align: center;
+}
+.user_detail span:nth-child(1){
+color: yellow;
+}
+
+.Skills p:nth-child(1){
+    color: yellow; 
+text-decoration: underline;
+font-weight: bold;
+margin: 10px 0px;
+
+}
+
+.Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:7px;
+
+}
+
+.Skills li{
+    list-style: none;
+padding:4px 10px;
+border: 1.5px solid white;
+}
+
+
+
+.grid{
+   
+    display: flex;
+    gap:10px;
+}
+
+.item-1{
+    padding: 5px 15px;
+    border: 1.5px solid aqua;
+    background-color:rgba(128, 128, 128, 0.77);
+    border-radius: 4px;
+    color: white;
+    
+}
+
+.item-2{
+    padding:5px 15px;
+    border: 1.5px solid aqua;
+    border-radius: 4px;
+}
