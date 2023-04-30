@@ -1,0 +1,50 @@
+/* reseting css */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+footer{
+    display :flex;
+    align-items: center;
+    gap:140px;
+
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+.box2 ul li button{
+    background-color: black;
+    color: white;
+    padding:12px 26px;
+    border:1.5px solid white;
+    border-radius:6px;
+    font-weight: bold;
+}
+
+.box2 li:first-child{
+     display :flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.box2 ul li:first-child i{
+    position: absolute;
+    right: 0px;top:10px;
+}
