@@ -1,0 +1,62 @@
+/* reset css */
+*{
+    margin:0px ;
+    padding:0px;box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container{
+    box-shadow: 0 0 5px violet;
+    padding:22px;
+}
+
+.top{
+    position:relative;
+}
+
+.top h2{
+  padding:12px 16px;
+    border:2px solid rgb(250, 201, 27);
+    border-radius:50%;
+    background-color: rgb(250, 201, 27);
+    color:black;
+    position: absolute;
+    bottom:-5px;
+    left: -15px;
+    font-weight: bold;
+    
+}
+
+.top h3{
+    border:2px solid black;
+    color:white;
+    background-color: black;
+    padding:7px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+table{margin-top: 10px;
+    border: 1px solid black;
+    width:100%;
+border-collapse: collapse;
+text-align: center;
+}
+
+table thead th{
+    color:green;
+}
+table thead th:first-child{
+    color:red;
+}
+
+tr,td,th{
+    border:3px solid rebeccapurple
+}
