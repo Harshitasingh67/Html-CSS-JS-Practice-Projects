@@ -1,0 +1,70 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    margin:0px;
+    padding:20px;
+    box-sizing: border-box;
+    width:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap:20px;
+}
+
+header{
+    font-size:25px;
+    text-decoration:underline;
+    font-style: italic;
+    font-family: 'Montez', cursive
+  ;
+}
+
+.calendar{
+    padding:50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    border: 2px solid violet;
+    box-shadow:0 0 8px rgb(4, 70, 97);
+}
+
+.calendar h3{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+
+}
+
+table{
+    border:2px solid cyan;
+   
+    background-color:hotpink;
+    border-radius: 8px ;
+    border-collapse: collapse;
+}
+
+table thead th{
+    color:navy;
+}
+
+tr,td,th{
+    border:2px solid navajowhite;
+    text-align:center;
+}
+
+.month{
+box-shadow: 0 0 8px rgb(4, 70, 97);
+padding:10px;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+header span{
+    font-size:50px;
+}
