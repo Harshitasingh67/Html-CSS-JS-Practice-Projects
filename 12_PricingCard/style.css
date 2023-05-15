@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin:0px;
     padding: 0px;
+    
 }
 
 body{
@@ -13,8 +14,100 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color:blue;
 }
 
 .container{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:60px;
+}
+
+.card{
+    border:1px solid black;
+    width:300px;
+    height:400px;
+    border-radius: 23px;
+    padding:50px;
+background-color: white;
+position: relative;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 20px white;
+}
+
+.card ul li{
+    list-style: none;
+    display: flex;
+        
+        align-items: center;
+        gap:5px;
+        margin-bottom: 10px;
+}
+
+.card1 h3, .card1 h2 {
+color:blue;
+
+}
+
+.card1 h3{
+    position: absolute;
+left:0px;
+top:0px;
+padding:15px 26px;
+background-color: rgb(141, 141, 232);
+border-top-right-radius: 3px;
+border-bottom-right-radius:20px;
+border-top-left-radius:23px;
+
+}
+
+.card1 >p{
+   margin: 14px 0px;
+}
+
+.card button{
+    border-radius: 20px;
+    padding:8px 15px;
+    font-weight: bold;
+    width:fit-content;
+    margin:auto;
+    border:2px solid blue;
+}
+.card ul li span{
+    color:blue;
+    font-weight: bold;
+}
+
+.card1 button{
+    color:blue;
+}
+
+.card1 h2{
+    margin-top:15px;
+}
+.card2 button{
+    background-color: blue;
+    color:white;
     
+}
+
+.card2 ul li :first-child p{
+    color:blue;
+
+}
+
+.curve{
+    height:100px;
+    background-color:rgb(141, 141, 232);
+    color:blue;
+    border-radius: 10px;
+    box-shadow:0 0 10px palevioletred;
+    padding: 5px;
+  
+}
+
+.curve h2{
+font-size: 29px;
 }
