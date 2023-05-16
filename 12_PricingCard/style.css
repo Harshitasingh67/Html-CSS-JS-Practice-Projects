@@ -90,6 +90,7 @@ border-top-left-radius:23px;
 .card2 button{
     background-color: blue;
     color:white;
+    box-shadow: 0 0 10px yellowgreen;
     
 }
 
