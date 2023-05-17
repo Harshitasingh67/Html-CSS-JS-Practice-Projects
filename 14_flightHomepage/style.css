@@ -1,0 +1,88 @@
+/* reseting css */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    
+}
+
+nav{
+    height:8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:480px;
+}
+
+nav ul {
+list-style: none;
+margin:0px 0px;padding:0px
+
+}
+
+nav li{
+    display:inline-block;
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+        
+        align-items: center;
+        
+        
+}
+
+.container img{
+    width:100px;
+    border-right:1px solid white; 
+margin:10px 10px;
+padding:10px 20px; 
+    
+}
+nav button{
+    color:white;
+    padding: 8px 16px;
+    border:1px solid rgba(128, 8, 172, 0.877);
+    background-color: rgba(184, 3, 151, 0.877);
+    border-radius: 5px;
+}
+
+main{
+    background-image: url("./assets/bg.png");
+    height:92vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+        
+}
+
+.center {
+    font-size: larger;
+    width:340px;
+    
+}
+.center h1{
+    margin-bottom: 20px;
+}
+
+
+main button{
+
+    
+    color: white;
+        padding: 8px 16px;
+        border: 1px solid rgba(184, 3, 151, 0.877);
+        background-color: rgba(184, 3, 151, 0.877);
+        border-radius: 5px;
+}
