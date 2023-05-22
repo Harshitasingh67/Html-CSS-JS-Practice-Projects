@@ -1,0 +1,87 @@
+/* Reset the CSS */
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(90deg, rgb(66, 0, 128), purple);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 30px;
+    color:white;
+}
+
+.logo p{
+    font-size: 40px;
+    font-style: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+        align-items: center;
+        gap:45px;
+}
+
+.right_nav button:first-child{
+border: none;
+padding: 5px 12px;
+background: transparent;
+color: white;
+}
+
+.right_nav button:last-child {
+padding: 5px 12px;
+background: transparent;
+color: white;
+border:1.5px solid white;
+border-radius:5px;
+}
+
+main{
+    color:white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:440px;
+        padding:0px 20px;
+        position: relative;
+}
+
+.center{
+    width:600;
+}
+
+.center h1{
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.center button{
+color:white;
+background-color: orangered;
+padding:6px 25px;
+border:1px solid orangered;
+border-radius:5px;
+margin-top: 35px;
+}
+
+.image img{
+    width:450px;
+}
+
+.icons{
+   display: flex;
+   gap:16px;
+  position:absolute;
+    bottom:4px
+}

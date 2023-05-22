@@ -1,0 +1,267 @@
+/* reset the CSS */
+
+*{
+    margin:0px ;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    color:red;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+margin:0px 20px;
+padding:3px 10px;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.right{
+    display:flex;
+    gap:26px
+}
+
+.right button{
+    color:white;
+    background-color: rgb(146, 9, 68);
+    border: 1.5px solid rgb(146, 9, 68);
+    padding:7px 10px;
+    border-radius: 5px;
+}
+
+
+main{
+    height:500px;
+    background-image: url("./assets/main image.png");
+     display:flex;
+    align-items:center;
+
+}
+
+.container{
+margin-left: 40px;
+    width:370px;
+    color:white;
+    font-size: 20px;
+}
+
+.container h1{
+    font-size: 54px;
+    margin-bottom:10px;
+}
+
+.container button{
+    margin-top:20px;
+    border:1.5px solid white;
+    padding:5px 10px;
+    border-radius: 5px;
+    color:rgb(196, 20, 79);
+    font-weight: bold;
+}
+
+.details{
+    margin:50px 170px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.details i{
+    margin-left:50px;
+    margin-bottom: 10px;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Product_image{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 50px;
+}
+
+
+
+.Product_image>img{
+    width:400px;
+    margin-left: 60px;
+}
+
+.grid {display:grid;
+    gap :90px;
+    grid-template-columns: repeat(2,250px);
+
+ }
+
+
+ .card1 p{
+    text-align:center;
+ }
+
+ .Price{
+    display: flex;
+    align-items: center;
+    gap:20px;
+ }
+
+ .Price p{
+    color:rgb(196, 20, 79);
+    font-weight:bold;
+ }
+ .Price button{
+    padding:5px 10px;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+ }
+
+ .show_more_button button{
+margin-top: 20px;
+    border: 1.5px solid white;
+    padding: 9px 19px;
+    border-radius: 5px;
+    background-color: rgb(196, 20, 79);
+    color:white;
+    font-weight: bold;
+   margin-left: 570px;
+
+ }
+
+ .middle_section{
+
+    display:flex;
+    align-items: center;
+    padding:30px 60px;
+    gap:40px;
+ }
+
+ .text h2{
+color:rgb(196, 20, 79);
+font-size: 30px;
+ }
+
+ .text p{
+    width:380px
+ }
+
+ .middle_section button{
+    color:white;
+    background-color: black;
+    border:1px solid black;
+    padding: 9px 19px;
+        border-radius: 5px;
+        margin-top: 30px;
+ }
+
+ .middle_section_image img{
+    margin-top: 30px;
+    width:680px;
+    height:530px;
+   
+ }
+
+  /* Trending Product Section  */
+
+  .trending_product_items{
+    display:flex;
+    align-items: center;
+    gap:25px;
+    
+    padding:0px 30px;
+    margin-bottom: 40px;
+
+  }
+
+  .trending_product_items1 img{
+    width:380px;
+  }
+
+  .trending_product_items span{
+    color:rgb(196, 20, 79);
+    font-weight: bold;
+      
+  }
+
+  .show_more_button2 button{
+    margin-top: 20px;
+        border: 1.5px solid white;
+        padding: 9px 19px;
+        border-radius: 5px;
+        background-color: rgb(196, 20, 79);
+        color: white;
+        font-weight: bold;
+        margin-left: 570px;
+        margin-bottom: 30px;
+  }
+
+  .testimonial_head h2{
+    font-size: 30px;
+  }
+
+  .main_testimonial{
+    margin-left: 260px;
+  }
+
+  .main_testimonial p{
+    width:790px;
+    text-align: center;
+    border:1px solid rgb(196, 20, 79);
+    color:white;
+    background-color: rgb(196, 20, 79);
+    padding:70px 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+  }
+
+  .main_testimonial p span{
+    font-size:22px;
+    padding-top: 50px;
+  }
+
+   /* Product Gallery code */
+
+   .product_gallery h2{
+    font-size: 30px;
+    margin-top: 60px;
+   }
+
+
+   .product_Gallery{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin:0 30px;
+   }
+
+
+   .product_gallery_items{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-bottom:40px;
+   
+   }
+
+   .product_gallery_items1 img{
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+   }
+
+   .product_gallery_items2{}
