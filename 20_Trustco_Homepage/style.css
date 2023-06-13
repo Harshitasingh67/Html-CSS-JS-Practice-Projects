@@ -1,0 +1,76 @@
+/* reset CSS */
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+/* css for Nav bar */
+
+header{
+    
+    background-color: rgb(217, 223, 225);
+}
+
+
+
+nav{padding: 34px 100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.features ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap:33px
+}
+
+.features ul li:first-child{
+    color:rgb(14, 84, 165);
+    font-weight: bold;
+}
+
+.right_nav  button:first-child{
+    border:1px solid white;
+    color:black;
+    background-color: white;
+    box-shadow: 0px 0px 5px solid white;
+    padding:15px 30px;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+.right_nav button:last-child {
+    border: 1px solid white;
+    background-color: rgb(39, 111, 193);
+    color:white;
+    box-shadow: 0px 0px 5px solid  rgb(39, 111, 193);;
+    padding: 15px 30px;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+main{margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap:60px;
+    padding-left: 100px;
+}
+
+.right_side{
+    position: relative;
+}
+
+.right_side img:first-child {
+    width: 630px
+}
+
+.right_side img:last-of-type{
+position: absolute;
+bottom:33px;
+width:220px;
+}
+
