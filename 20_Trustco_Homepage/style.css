@@ -60,17 +60,272 @@ main{margin-top: 30px;
     padding-left: 100px;
 }
 
+.left_side h2{
+    font-size:50px;
+    
+}
+
+.left_side h2 span{
+    color:rgb(110, 110, 205);
+    font-size: 60px;
+}
+
+.left_side p{
+    color:rgb(71, 68, 68);
+    margin:30px 0px;
+}
+
+.left_side button{
+    border:1px solid navy;
+    background-color: rgb(77, 77, 178);
+    color:white;
+    padding:17px 36px;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+.left_side button span{
+    border:1px solid rgb(151, 96, 151);
+    background-color: rgb(151, 96, 151);
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding:3px 3px
+}
+
 .right_side{
     position: relative;
 }
 
 .right_side img:first-child {
-    width: 630px
+    width: 650px
 }
 
 .right_side img:last-of-type{
 position: absolute;
-bottom:33px;
-width:220px;
+z-index: 100;
+left:-19px;
+bottom:2px;
 }
+
+.right_side_circle{
+    position: absolute;
+    border:1px solid rgba(10, 134, 134, 0.64);
+    border-radius: 50%;
+    width:160px;
+    height:160px;
+    background-color:rgb(61, 61, 169) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right:38px;
+    top:262px;
+    color:white;
+}
+
+.right_side_circle span{
+    border: 1px solid rgb(168, 87, 168);
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(138, 93, 138);
+}
+
+.main_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 80px
+}
+
+/* CSS code for main2 */
+
+
+.main2{
+    background-color: rgb(92, 92, 203);
+    padding-top:100px
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap:60px;
+    margin-bottom: 30px;
+}
+
+.High_Sales h2{
+    padding-left:160px;
+    font-size:50px;
+    width:660px;
+}
+
+.High_Sales h2 span{
+color:yellow
+}
+
+.high_sales_right p{
+    font-size: 20px;
+width:360px;
+font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+color:white
+}
+
+.main2 img {
+    width:950px;
+    margin-left: 160px;
+
+}
+
+/* main3 CSS code */
+
+.main3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin:40px 150px;
+    gap:23px;
+    
+}
+
+.elements button{
+    color:white;
+    border:1px solid rgb(93, 93, 193);
+    background-color: rgb(96, 96, 207);
+    font-size: 17px;
+    padding:10px 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.elements h2{
+    font-size:52px;
+    margin-bottom: 30px;
+}
+
+.customers , .integration, .problems {
+border: 1px solid white;
+    box-shadow: 0px 0px 5px rgb(168, 189, 168);
+    background-color: rgb(185, 230, 195);
+
+    width:380px;
+    padding:28px 30px;
+    border-radius: 10px;
+    
+}
+
+.customers img,.integration img,.problems img{
+    margin-bottom:17px
+}
+
+.customers h3,.integration h3,.problems h3{
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main4{
+    display:flex;
+    align-items: center;
+    gap:110px
+}
+
+.main4_left_image img{
+    width:560px;
+    position:relative;
+}
+
+.circle4{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    background-color: rgb(19, 19, 110);
+    text-align: center;
+    margin-top: 30px;
+    color:white;
+    box-shadow: 0px 0px 5px white;
+    position:absolute;
+    left:400px;
+    bottom:-2170px
+
+/* have to chect this */
+
+}
+
+.circle4 span{
+    border:1px solid white;
+    border-radius:50%;
+    background-color: rgb(20, 124, 121);
+    padding:3px 0px;
+    margin-bottom: 10px;
+}
+
+.circle4 h2{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.main4_right{
+    width:520px;
+
+}
+
+.main4_right h2{
+    font-size: 54px;
+    margin-bottom: 35px;
+    }
+
+
+.main4_right h2 span{
+    color:rgb(93, 93, 214);
+}  
+
+.main4_right p{
+    font-size:22px
+}
+
+.main4_right button{
+    margin-top:25px;
+    color: white;
+        border: 1px solid rgb(93, 93, 193);
+        background-color: navy;
+        font-size: 17px;
+        padding: 16px 30px;
+        border-radius: 25px;
+        
+}
+
+.main4_right button span{
+    border:1px solid whitesmoke;
+    border-radius: 50%;
+    padding:3px 4px;
+    background-color:rgb(20, 124, 121) ;
+
+}
+
+/* CSS code for left remaining part */
+
+.founder_top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:150px;
+    margin: 110px 0px;
+}
+
+.founder_top h2{
+    font-size:56px;
+    color:navy;
+}
+
+.founder_top p{
+    color: rgb(101, 95, 95);
+    font-size:20px
+}
+
+/* CSS code for founder part */
 
