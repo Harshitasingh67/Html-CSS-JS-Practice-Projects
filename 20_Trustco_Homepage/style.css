@@ -146,7 +146,8 @@ bottom:2px;
 
 .main2{
     background-color: rgb(92, 92, 203);
-    padding-top:100px
+    padding-top:100px;
+    position: relative;
 }
 
 .container{
@@ -178,6 +179,17 @@ color:white
     width:950px;
     margin-left: 160px;
 
+}
+
+.play_button span{
+    border:1px solid white;
+    padding:15px 15px;
+    border-radius: 23px;
+background-color: white;
+font-size: 22px;
+position:absolute;
+bottom:150px;
+right:50%;
 }
 
 /* main3 CSS code */
@@ -329,3 +341,407 @@ border: 1px solid white;
 
 /* CSS code for founder part */
 
+.founder{
+    display:flex;
+    align-items:center;
+    margin-left: 110px;
+    
+}
+
+.about_founder{margin-bottom: 280px;
+
+width:600px;
+}
+
+.about_founder h2{
+    font-size:55px;
+    margin-bottom: 40px;
+}
+
+.about_founder p{
+    width:450px;
+    font-size:23px;
+}
+
+.about_founder p:last-of-type{
+    color:navy;
+    font-weight: bolder;
+    margin-top: 30px;
+
+}
+
+.about_founder p span{
+    color:rgb(57, 54, 54)
+}
+
+.about_founder button{
+    color: white;
+        border: 1px solid rgb(93, 93, 193);
+        background-color: rgb(19, 19, 152);
+        font-size: 17px;
+        padding: 20px 35px;
+        border-radius: 30px;
+        margin-top: 50px;
+}
+
+.about_founder button span{
+    border: 1px solid whitesmoke;
+        border-radius: 50%;
+        padding: 3px 4px;
+        background-color: rgb(20, 124, 121);
+}
+
+
+.founder_image{
+    position: relative;
+}
+.founder_image img:first-child{
+    width:700px;
+   
+}
+
+.founder_image img:last-child{
+position: absolute;
+top:390px;
+left:-20px
+}
+
+.believe_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 50px 90px;
+}
+
+.container2{
+background-color: rgb(174, 203, 229);
+
+}
+
+.believe_left h1{
+    font-size:60px
+}
+
+.believe_left button{
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card{
+    display:flex;
+    align-items: flex-start;
+    gap:40px;
+margin-left: 100px;
+padding-bottom: 50px;
+}
+
+.left_card{
+    width:470px;
+    border:1px solid whitesmoke;
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 0px 0px 5px rgb(131, 169, 184);
+    padding:40px 20px;
+    
+}
+
+.left_card >p{
+    font-size:20px;
+    padding-bottom: 10px;
+}
+
+.managing_director{
+
+    display:flex;
+    align-items:center;
+    gap:20px
+}
+
+.director_details>p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.director_details>p span{
+    color:rgb(85, 78, 78);
+}
+
+.right_card >p{
+    font-size: 20px;
+    padding-bottom: 31px;
+}
+
+.right_card {
+    width: 470px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgb(131, 169, 184);
+        padding: 40px 20px
+}
+
+.marketing_director{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.marketing_dir_details >p{
+    font-size: 16px;
+        font-weight: bold;
+}
+
+.marketing_dir_details >p span{
+    color: rgb(85, 78, 78);
+}
+
+/* Code for what's new on trustco? */
+
+.new_on{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 66px 90px;
+}
+
+.new_on h1 {
+    font-size: 60px;
+}
+
+.new_on button {
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.new_on h1 span{
+    color:rgb(64, 64, 173)
+}
+
+.whats_new{
+    display:flex;
+    align-items:center;
+    margin: 0px 100px;
+    gap:20px;
+margin-bottom: 24px;
+}
+
+.card_image_1{
+    border:1px solid whitesmoke;
+box-shadow: 0px 0px 5px gray;
+border-radius: 5px;
+margin-bottom: 80px;
+}
+
+.card_image_1 img{
+    margin-bottom:10px;
+}
+
+.card_image_1  h2,p{
+    padding:6px 22px
+}
+
+.card_image_1  button{
+    margin-left: 22px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.card_image_2{
+    border:1px solid whitesmoke;
+box-shadow: 0px 0px 5px gray;
+border-radius: 5px;
+margin-bottom: 80px;
+}
+
+.card_image_2 img{
+    margin-bottom:10px;
+}
+
+.card_image_2  h2,p{
+    padding:6px 22px
+}
+
+.card_image_2  button{
+    margin-left: 22px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color:navy
+}
+
+.card_image_3{
+    border:1px solid whitesmoke;
+box-shadow: 0px 0px 5px gray;
+border-radius: 5px;
+margin-bottom: 80px;
+}
+
+.card_image_3 img{
+    margin-bottom:10px;
+}
+
+.card_image_3  h2,p{
+    padding:6px 22px
+}
+
+.card_image_3  button{
+    margin-left: 22px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Code forCustomer Service part  */
+
+.customer_service{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    background-color:rgb(5, 5, 42);
+    color: white;
+    padding:94px;
+}
+
+.customer_service_left h1{
+    color:white;
+    font-size:50px;
+    margin-bottom: 50px;
+    
+}
+
+.customer_service_left button{
+    border:1px solid yellow;
+    padding:10px 20px;
+    background-color: rgb(183, 147, 17);
+    color:white;
+    font-weight: bold;
+    border-radius: 22px;
+    font-size: 17px;
+margin-bottom: 20px;
+}
+
+.customer_service_left button span{
+    border:1px solid slategray;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: rgb(87, 128, 128);
+    padding:3px 3px;
+    box-shadow: 0px 0px 6px blue;
+}
+
+.customer_service_left  p{
+    font-size:20px;
+}
+
+.customer_service_right{
+    position:relative;
+
+}
+
+.customer_service_right img:first-child{
+width:600px;
+
+}
+
+/* .customer_service_right img:last-of-type{
+    position: absolute;
+    right:5px;
+    background-color: transparent;
+} */
+
+
+/* CSS Code for last section */
+
+.last_section{
+    display: flex;
+    align-items: center;
+    padding:60px 80px ;
+    align-items:flex-start;
+gap:70px;
+}
+
+.last_section i{
+    padding-top:40px;
+    font-size:35px;
+    margin:0px 10px;
+}
+
+.last_section_para{
+    font-size: 20px;
+    width:400px;
+    color:rgb(51, 52, 53)
+}
+
+.last_section_home ul{
+list-style: none;
+color: rgb(51, 52, 53)
+}
+
+.last_section_home ul li:first-of-type{
+font-size: 25px;
+color: black;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.last_section_about ul {
+    list-style: none;
+    color:rgb(51, 52, 53)
+}
+
+.last_section_about ul li:first-of-type {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.last_section_home ul li{
+    margin-bottom:19px;
+    font-size: 20px;
+}
+
+.last_section_about ul li {
+    margin-bottom: 19px;
+    font-size: 20px;
+}
+
+/* Footer CSS code */
+
+
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+background-color: lightsteelblue;
+    padding: 10px 90px;
+   
+}
+
+.medium{
+    
+}
+
+.medium ul{
+    display: flex;
+        align-items: center;
+        gap: 40px;
+    list-style: none;
+}
+
+.copyright span i{
+    font-size: 20px;
+}
