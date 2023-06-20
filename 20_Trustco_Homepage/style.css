@@ -3,6 +3,7 @@
 margin:0px;
 padding:0px;
 box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
 
 /* css for Nav bar */
@@ -51,6 +52,10 @@ nav{padding: 34px 100px;
     padding: 15px 30px;
     border-radius: 22px;
     font-weight: bold;
+}
+
+.menu_bar{
+    display:none;
 }
 
 main{margin-top: 30px;
@@ -239,15 +244,17 @@ border: 1px solid white;
     font-weight: bold;
 }
 
-.main4{
-    display:flex;
+/* main4 CSS code(---from here) */
+
+.main4 {
+    display: flex;
     align-items: center;
-    gap:110px
+    gap: 110px
 }
 
-.main4_left_image img{
-    width:560px;
-    position:relative;
+.main4_left_image img {
+    width: 560px;
+    position: relative;
 }
 
 .circle4{
@@ -262,9 +269,7 @@ border: 1px solid white;
     box-shadow: 0px 0px 5px white;
     position:absolute;
     left:400px;
-    bottom:-2170px
-
-/* have to chect this */
+    bottom:-2170px;
 
 }
 
@@ -319,6 +324,79 @@ border: 1px solid white;
 
 }
 
+
+
+
+
+214);
+}
+
+.main4_right p {
+    font-size: 16px
+}
+
+.main4_right button {
+    margin-top: 25px;
+    color: white;
+    border: 1px solid rgb(93, 93, 193);
+    background-color: navy;
+    font-size: 17px;
+    padding: 20px 35px;
+    border-radius: 25px;
+    margin-left: 88px;
+}
+
+.main4_right button span {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    padding: 3px 4px;
+    background-color: rgb(20, 124, 121);
+
+}
+
+/* Main4-left part */
+
+.main4_left_image img{
+    width:380px;
+    position:relative;
+    
+}
+
+.circle4{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    width:160px;
+    height:160px;
+    background-color: rgb(19, 19, 110);
+    text-align: center;
+    margin-top: 30px;
+    color:white;
+    box-shadow: 0px 0px 5px white;
+    position:absolute;
+    left:280px;
+    bottom:-3440px
+
+/* have to check this */
+
+}
+
+.circle4 span{
+    border:1px solid white;
+    border-radius:50%;
+    background-color: rgb(189, 216, 105);
+    padding:3px 0px;
+    margin-bottom: 10px;
+font-size: 20px;
+
+}
+
+.circle4 h2{
+    font-size:40px;
+    font-weight: bold;
+}
+
+/* too here */
+
 /* CSS code for left remaining part */
 
 .founder_top{
@@ -348,8 +426,8 @@ border: 1px solid white;
     
 }
 
-.about_founder{margin-bottom: 280px;
-
+.about_founder{
+    margin-bottom:280px;
 width:600px;
 }
 
@@ -405,6 +483,8 @@ position: absolute;
 top:390px;
 left:-20px
 }
+
+/* Believe and Trust part */
 
 .believe_left{
     display: flex;
@@ -683,7 +763,10 @@ gap:70px;
     width:400px;
     color:rgb(51, 52, 53)
 }
-
+.last_section_home{
+    display: flex;
+    gap:50px;
+}
 .last_section_home ul{
 list-style: none;
 color: rgb(51, 52, 53)
@@ -731,9 +814,6 @@ background-color: lightsteelblue;
    
 }
 
-.medium{
-    
-}
 
 .medium ul{
     display: flex;
@@ -745,3 +825,698 @@ background-color: lightsteelblue;
 .copyright span i{
     font-size: 20px;
 }
+
+/* Media Query for responsive designing */
+
+@media only screen and (max-width: 450px){
+
+.features{
+    display:none;
+}
+
+.right_nav{
+    display: none;
+}
+
+.menu_bar{
+    display:block;
+    font-size:26px;
+}
+
+nav {
+    padding: 30px 10px;
+    background-color: white;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding-left: 7px;
+}
+
+.left_side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+justify-content: center;
+}
+
+.left_side h2 {
+    font-size: 38px;
+text-align: center;
+}
+
+.left_side h2 span {
+    color: rgb(110, 110, 205);
+    font-size: 50px;
+}
+
+
+.left_side button span {
+    border: 1px solid rgb(151, 96, 151);
+    background-color: rgb(151, 96, 151);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 3px 6px;
+}
+
+.right_side {
+    position: relative;
+}
+
+.right_side img:first-child {
+    width: fit-content;
+}
+
+.right_side img:last-of-type {
+    position: absolute;
+    z-index: 100;
+    left: 14px;
+    bottom: -40px;
+    width:200px;
+}
+
+.right_side_circle {
+    position: absolute;
+    border: 1px solid rgba(10, 134, 134, 0.64);
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(61, 61, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 38px;
+    top: 160px;
+    color: white;
+}
+
+.main_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px 20px;
+}
+
+.main_bottom p{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.main_bottom_images{
+display: flex;
+flex-wrap: wrap;
+gap:30px;
+align-items: center;
+justify-content: center;
+}
+
+/* main2 code */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+}
+
+.High_Sales h2 {
+    padding-left: 10px;
+    font-size: 35px;
+    width: 430px;
+}
+
+.high_sales_right p {
+    font-size: 22px;
+    width: 400px;
+    color: white;
+}
+
+.main2 img {
+    width: 400px;
+    margin-left: 26px;
+
+}
+
+.play_button span {
+    border: 1px solid white;
+    padding: 9px 11px;
+    border-radius: 23px;
+    background-color: white;
+    font-size: 22px;
+    position: absolute;
+    bottom: 80px;
+    right: 50%;
+}
+
+.main3 {
+    display: flex;
+    align-items: center;
+     width:fit-content;
+     margin: 35px auto;
+    flex-direction: column;
+
+
+}
+
+.elements button {
+    color: white;
+    border: 1px solid rgb(93, 93, 193);
+    background-color: rgb(96, 96, 207);
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 27px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.elements h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+margin-left: 59px;
+}
+
+.elements p{
+    margin-left:30px;
+}
+
+.customers,
+.integration,
+.problems {
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px rgb(168, 189, 168);
+    background-color: rgb(185, 230, 195);
+    width: 380px;
+    padding: 30px 30px;
+    border-radius: 10px;
+
+}
+
+.customers img,
+.integration img,
+.problems img {
+    margin-bottom: 17px
+}
+
+.customers p,
+.integration p,
+.problems p{
+    padding:5px;
+}
+
+.customers h3,
+.integration h3,
+.problems h3 {
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* main4 section */
+
+.main4 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    flex-direction: column-reverse;
+}
+
+.main4_right {
+    width: 400px;
+
+}
+
+.main4_right h2 {
+    font-size: 35px;
+    margin-bottom: 27px;
+    padding-left: 15px;
+}
+
+
+.main4_right h2 span {
+    color: rgb(93, 93, 214);
+}
+
+.main4_right p {
+    font-size: 16px
+}
+
+.main4_right button {
+    margin-top: 25px;
+    color: white;
+    border: 1px solid rgb(93, 93, 193);
+    background-color: navy;
+    font-size: 17px;
+    padding: 20px 35px;
+    border-radius: 25px;
+    margin-left: 88px;
+}
+
+.main4_right button span {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    padding: 3px 4px;
+    background-color: rgb(20, 124, 121);
+
+}
+
+/* Main4-left part */
+
+.main4_left_image img {
+    width: 380px;
+    position: relative;
+
+}
+
+.circle4 {
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(19, 19, 110);
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    box-shadow: 0px 0px 5px white;
+    position: absolute;
+    left: 280px;
+    bottom: -3440px
+        /* have to check this */
+
+}
+
+.circle4 span {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgb(189, 216, 105);
+    padding: 3px 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.circle4 h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* CSS code for left remaining part */
+
+.founder_top {
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    text-align: center;
+    margin: 110px 0px;
+    
+}
+
+.founder_top h2 {
+    font-size: 45px;
+    color: navy;
+}
+
+.founder_top p {
+    color: rgb(101, 95, 95);
+    font-size: 15px;
+
+}
+.generate_sales,.grew_revenue,.company_customers,.grew_customers{
+width:200px;
+}
+
+/* Meet founder */
+
+.founder {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.about_founder {
+    margin-bottom: 50px;
+    width: 450px;
+}
+
+.about_founder h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about_founder p {
+    text-align: center;
+    width: 450px;
+    font-size: 18px;
+padding-right: 40px;
+line-height: 25px;
+}
+
+.about_founder button {
+    color: white;
+    border: 1px solid rgb(93, 93, 193);
+    background-color: rgb(19, 19, 152);
+    font-size: 20px;
+    padding: 25px 40px;
+    border-radius: 48px;
+    margin-top: 40px;
+    margin-left: 31px;
+}
+
+.about_founder button span {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    padding: 3px 4px;
+    background-color: rgb(223, 221, 110);
+}
+
+
+.founder_image {
+    position: relative;
+}
+
+.founder_image img:first-child {
+    width: 550px;
+
+}
+
+.founder_image img:last-child {
+    position: absolute;
+    top: 350px;
+    width:170px;
+    left:30px;
+   
+}
+
+/* Believe and Trust part */
+
+.container2 {
+    background-color: rgb(174, 203, 229);
+padding-bottom: 80px;
+overflow: hidden;
+}
+
+.believe_left {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    text-align: center;
+    position: relative;
+}
+
+.believe_left h1 {
+    font-size: 34px;
+}
+
+.believe_left button {
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom:-450px;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    overflow-x: scroll;
+
+}
+
+.left_card {
+    width: 350px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(131, 169, 184);
+    padding: 20px 6px;
+align-self: flex-start;
+}
+
+.left_card>p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.left_card>p span{
+font-size: 50px;
+color:orange;
+}
+
+.managing_director {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.director_details>p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.director_details>p span {
+    color: rgb(85, 78, 78);
+}
+
+.right_card>p {
+    font-size: 20px;
+    padding-bottom: 31px;
+}
+
+.right_card {
+    width: 350px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(131, 169, 184);
+    padding: 20px 6px;
+    align-self: flex-start;align-self: flex-start;
+}
+
+.right_card>p{
+    font-size: 15px;
+        padding-bottom: 10px;
+}
+
+.right_card>p span {
+    font-size: 50px;
+    color: orange;
+}
+
+.marketing_director {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.marketing_dir_details>p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.marketing_dir_details>p span {
+    color: rgb(85, 78, 78);
+}
+/* "What's new on Trustco" */
+
+.container3{
+    width:95vw;
+    overflow-x: scroll;
+    position: relative;
+}
+.new_on {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 20px;
+    flex-direction: column;
+    
+}
+
+.new_on h1 {
+    font-size: 30px;
+}
+
+.new_on button {
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:670px;
+    
+}
+
+
+
+/* Code forCustomer Service part  */
+
+.customer_service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:60px 30px;
+    background-color: rgb(5, 5, 42);
+    color: white;
+    width:450px;
+}
+
+.customer_service_left h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+text-align: center;
+}
+
+.customer_service_left button {
+    border: 1px solid yellow;
+    padding: 20px 40px;
+    background-color: rgb(183, 147, 17);
+    color: white;
+    font-weight: bold;
+    border-radius: 29px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 34px;
+}
+
+.customer_service_left button span {
+    border: 1px solid slategray;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(87, 128, 128);
+    padding: 3px 3px;
+    box-shadow: 0px 0px 6px blue;
+}
+
+.customer_service_left p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.customer_service_right {
+    position: relative;
+
+}
+
+.customer_service_right img:first-child {
+    width: 420px;
+
+}
+
+/* .customer_service_right img:last-of-type{
+    position: absolute;
+    right:5px;
+    background-color: transparent;
+} */
+
+
+/* CSS Code for last section */
+
+.last_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: center;
+}
+
+.last_section i {
+    padding-top: 40px;
+    font-size: 35px;
+    margin: 0px 10px;
+}
+
+.last_section_logo {
+    padding-left: 40px;
+}
+
+.last_section_logo img{
+    width:270px;
+}
+
+.last_section_para {
+    font-size: 20px;
+    width: 400px;
+    color: rgb(51, 52, 53);
+    line-height:24px;
+}
+
+.last_section_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 80%;
+}
+
+.last_section_home ul {
+    list-style: none;
+    color: rgb(51, 52, 53);
+    align-self:flex-start;
+    text-align: left;
+}
+
+.last_section_home ul li:first-of-type {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.last_section_home ul li {
+    margin-bottom: 19px;
+    font-size: 20px;
+}
+
+/* Footer CSS code */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color: lightsteelblue;
+    padding: 30px 30px;
+width:fit-content;
+}
+
+.medium ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.copyright span i {
+    font-size: 20px;
+}
+
+.copyright{
+    order: 5;
+}
+
+}
+
