@@ -186,10 +186,10 @@ color:white
 
 }
 
-.play_button span{
+.play_button{
     border:1px solid white;
-    padding:15px 15px;
-    border-radius: 23px;
+    padding:11px 15px;
+    border-radius: 50%;
 background-color: white;
 font-size: 22px;
 position:absolute;
@@ -249,12 +249,19 @@ border: 1px solid white;
 .main4 {
     display: flex;
     align-items: center;
-    gap: 110px
+    gap: 100px;
+    
+}
+
+.main4_left_image{
+    width:40%;
+    position: relative;
 }
 
 .main4_left_image img {
-    width: 560px;
-    position: relative;
+    width:480px;
+    object-fit: contain;
+    
 }
 
 .circle4{
@@ -269,15 +276,15 @@ border: 1px solid white;
     box-shadow: 0px 0px 5px white;
     position:absolute;
     left:400px;
-    bottom:-2170px;
+    bottom: 30px;
 
 }
 
 .circle4 span{
     border:1px solid white;
     border-radius:50%;
-    background-color: rgb(20, 124, 121);
-    padding:3px 0px;
+    background-color: rgb(232, 210, 48);
+    padding:2px 2px;
     margin-bottom: 10px;
 }
 
@@ -287,13 +294,13 @@ border: 1px solid white;
 }
 
 .main4_right{
-    width:520px;
-
+    margin-right: 40px;
 }
 
 .main4_right h2{
-    font-size: 54px;
+    font-size: 50px;
     margin-bottom: 35px;
+    
     }
 
 
@@ -312,7 +319,7 @@ border: 1px solid white;
         background-color: navy;
         font-size: 17px;
         padding: 16px 30px;
-        border-radius: 25px;
+        border-radius: 35px;
         
 }
 
@@ -324,12 +331,6 @@ border: 1px solid white;
 
 }
 
-
-
-
-
-214);
-}
 
 .main4_right p {
     font-size: 16px
@@ -354,41 +355,6 @@ border: 1px solid white;
 
 }
 
-/* Main4-left part */
-
-.main4_left_image img{
-    width:380px;
-    position:relative;
-    
-}
-
-.circle4{
-    border: 2px solid whitesmoke;
-    border-radius: 50%;
-    width:160px;
-    height:160px;
-    background-color: rgb(19, 19, 110);
-    text-align: center;
-    margin-top: 30px;
-    color:white;
-    box-shadow: 0px 0px 5px white;
-    position:absolute;
-    left:280px;
-    bottom:-3440px
-
-/* have to check this */
-
-}
-
-.circle4 span{
-    border:1px solid white;
-    border-radius:50%;
-    background-color: rgb(189, 216, 105);
-    padding:3px 0px;
-    margin-bottom: 10px;
-font-size: 20px;
-
-}
 
 .circle4 h2{
     font-size:40px;
@@ -422,23 +388,25 @@ font-size: 20px;
 .founder{
     display:flex;
     align-items:center;
-    margin-left: 110px;
+    margin-left: 100px;
     
 }
 
 .about_founder{
     margin-bottom:280px;
-width:600px;
+width:40%;
 }
 
 .about_founder h2{
-    font-size:55px;
+    font-size:45px;
     margin-bottom: 40px;
 }
 
 .about_founder p{
-    width:450px;
-    font-size:23px;
+    /* width:450px; */
+    margin:0px;
+    padding:0px;
+    font-size:18px;
 }
 
 .about_founder p:last-of-type{
@@ -466,11 +434,12 @@ width:600px;
     border: 1px solid whitesmoke;
         border-radius: 50%;
         padding: 3px 4px;
-        background-color: rgb(20, 124, 121);
+        background-color: rgb(226, 239, 83);
 }
 
 
 .founder_image{
+    align-self: flex-start;
     position: relative;
 }
 .founder_image img:first-child{
@@ -965,16 +934,24 @@ justify-content: center;
     margin-left: 26px;
 
 }
-
-.play_button span {
+.play_button{
+    width:50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.play_button {
     border: 1px solid white;
-    padding: 9px 11px;
-    border-radius: 23px;
+    
+    border-radius: 30px;
     background-color: white;
     font-size: 22px;
     position: absolute;
-    bottom: 80px;
-    right: 50%;
+    top:600px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .main3 {
